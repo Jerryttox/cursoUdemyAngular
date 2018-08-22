@@ -5,7 +5,7 @@ import { ServerComponent } from './server/server.component';
 import { ServersComponent } from './servers/servers.component';
 import { SuccesComponent } from './success/success.component';
 import { WarningComponent } from './warning/warning.component';
-
+import { FormsModule } from '@angular/forms'; 
 @NgModule({
   declarations: [
     AppComponent,
@@ -15,7 +15,8 @@ import { WarningComponent } from './warning/warning.component';
     WarningComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
